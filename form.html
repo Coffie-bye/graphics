@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style11.css">
+</head>
+<body>
+    <div class="login-container">
+        <form id="login-form">
+            <h2>Login</h2>
+
+            <!-- Username field -->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <!-- Password field -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <!-- Login button -->
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Google Login Button -->
+        <button class="gmail-login" onclick="loginWithGoogle()">Login with Gmail</button>
+
+        <!-- Sign up link -->
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+
+        <!-- Google API script -->
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

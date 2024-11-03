@@ -1,0 +1,107 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Form Heading */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Login Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hover Effect for Login Button */
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Google Login Button */
+.gmail-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #db4a39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hover Effect for Google Login Button */
+.gmail-login:hover {
+    background-color: #c23321;
+}
+
+/* Sign-up Link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Sign-up Link Text */
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hover Effect for Sign-up Link */
+p a:hover {
+    text-decoration: underline;
+}
